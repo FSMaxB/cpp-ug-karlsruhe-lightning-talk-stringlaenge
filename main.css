@@ -1,0 +1,45 @@
+@font-face{
+    font-family: 'Roboto Slab';
+    src: url('fonts/Roboto Slab/RobotoSlab-Regular.ttf');
+}
+@font-face{
+    font-family: 'Yanone Kaffeesatz';
+    src: url('fonts/Yanone Kaffeesatz/YanoneKaffeesatz-Regular.ttf');
+}
+@font-face{
+    font-family: 'Ubuntu Mono';
+    src: url('fonts/Ubuntu Mono/UbuntuMono-Regular.ttf');
+}
+@font-face{
+    font-family: 'FourteenSegment';
+    src: url('fonts/FourteenSegment.ttf');
+}
+
+body { font-family: 'Roboto Slab', serif; }
+h1, h2, h3 {
+    font-family: 'Yanone Kaffeesatz',sans-serif;
+    font-weight: normal;
+}
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono', monospace; }
+
+.segment { font-family: 'FourteenSegment', sans-serif; }
+
+/* Two-column layout */
+.left-column {
+    color: #777;
+    width: 20%;
+    height: 92%;
+    float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+    color: #000;
+}
+.right-column {
+    width: 75%;
+    float: right;
+    padding-top: 1em;
+}
+
+.image {
+    width:90%;
+}
